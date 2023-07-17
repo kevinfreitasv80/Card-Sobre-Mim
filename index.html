@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="icon" href="imgs/fotoKevin.jpg">
+        <script defer src="assets/script.js"></script>
+        <title>Card Sobre Mim</title>
+    </head>
+    <body>
+        <header>
+            <img class="SunMoon" src="imgs/solLua.svg" style="width: 3em; cursor: pointer;" alt="Icone para definir a tela como clara ou escura">
+            <div class="copyText">
+                <h3 class="textCopySucess">Texto copiado com sucesso</h3>
+                <h3 class="textCopyNotSucess">Tente copiar o texto novamente</h3>
+            </div>
+        </header>
+        <main>
+            <img class="minhaFoto" src="imgs/fotoKevin.jpg" alt="Foto minha">
+            <section class="inforMinhas">
+                <h1>Sobre Mim</h1>
+                <p class="descr">Sou um rapaz chamado <h2 class="myName">Kevin, 13 anos</h2> <span id="idDescr">Gosto de programação por causa dos jogos, eu comecei pela area da web, sou bom em HTML, CSS e Javascript. Pretendo aprender React, começar no back-end, depois ir pro mobile, aprender a fazer jogo 2d e finalizar em engenharia de sofwtare (e se no futuro eu tiver um pc muito bom, eu faço jogo 3d 😁).</span></p>
+            </section>
+            <section class="meusConhecimentos">
+                <article class="part1">
+                    <h1>Conhecimentos Avançados</h1>
+                    <img src="imgs/photoshop.svg" alt="Photoshop Icone">
+                    <img src="imgs/illustrator.svg" alt="Illustrator Icone">
+                    <img src="imgs/html.svg" alt="HTML">
+                    <img src="imgs/css.svg" alt="CSS">
+                </article>
+                <article class="part2">
+                    <h1>Conhecimentos Intermediarios</h1>
+                    <img src="imgs/premiere.svg" alt="Premiere Icone">
+                    <img src="imgs/afterEffects.svg" alt="After Effects Icone">
+                    <img src="imgs/javascript.svg" alt="Javascript">
+                    <img src="imgs/bandeiraAmericana.svg" alt="Inglês Americano">
+                </article>
+                <article class="part3">
+                    <h3>Skills</h3>
+                    <hr>
+                    <nav>
+                        <div>Photoshop</div>
+                        <div>Illustrator</div>
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>Premiere</div>
+                        <div>After Effects</div>
+                        <div>Javascript</div>
+                        <div>Inglês</div>
+                    </nav>
+                </article>
+            </section>
+            <section class="socialMedia">
+                <a href="https://github.com/kevinfreitasv80" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCBchhtaihdlNs2LcNhN7LLQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@kevinfreitas764" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <i onclick="copiarTexto()" class="fa-brands fa-discord"></i>
+            </section>
+        </main>
+    </body>
+</html>
